@@ -3,8 +3,15 @@
     justify-content: space-between;
 }
 
+.blur-h {
+    width: 25rem;
+    height: 25rem;
+    left: 12rem;
+    top: 12rem;
+}
+
 .left-h {
-    padding: 2rem;
+    padding: 8rem;
     padding-top: 1.5rem;
     flex:3;
     display: flex;
@@ -106,7 +113,7 @@
 
 .right-h>.btn {
     position: absolute;
-    right: 3rem;
+    right: 6rem;
     top: 2rem;
     color: black;
 }
@@ -121,7 +128,7 @@
     align-items: start;
     border-radius: 5px;
     position: absolute;
-    right: 4rem;
+    right: 7rem;
     top: 7rem;
 }
 
@@ -182,4 +189,56 @@
 .calories>div>:nth-of-type(2) {
     font-size: 1.5rem;
     color: white
+}
+
+@media screen and (max-width: 768px) {
+    .hero {
+        flex-direction: column ;
+    }
+
+    .blur-h{
+        width: 10rem;
+    }
+
+    .left-h {
+        padding: 2rem;
+    }
+
+    .the-best-ad {
+        margin-top: 0;
+        font-size: small;
+        align-self: center;
+        transform: scale(0.8);
+    
+    }
+
+    .hero-text {
+        font-size: xx-large;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-text>div:nth-of-type(3) {
+        font-size: small;
+        font-weight: 200;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .figures > div > span:nth-of-type(1) {
+        font-size: large;
+
+    }
+
+    .figures > div > span:nth-of-type(2) {
+        font-size: small;
+    }
+
+    .right-h {
+        display: none;
+    }
 }
