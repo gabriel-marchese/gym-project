@@ -1,0 +1,51 @@
+.footer-container {
+    position: relative;
+}
+
+.blur-f {
+    width: 25rem;
+    height: 15rem;
+    top: 5rem;
+    right: 55%;
+}
+
+.blur-f-r {
+    background: rgba(255, 28, 28, 0.582);
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(150px);
+    z-index: -9;
+    width: 25rem;
+    height: 15rem;
+    top: 5rem;
+    left: 55%;
+}
+
+.footer-container>hr{
+    border: 1px solid var(--lightgray);
+}
+
+.footer {
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+}
+
+.social-links {
+    display: flex;
+    gap: 4rem;
+}
+
+.social-links>img {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.logo-f>img{
+    width: 10rem;
+}

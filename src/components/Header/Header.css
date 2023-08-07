@@ -19,3 +19,28 @@
     color: var(--orange);
     cursor: pointer;
 }
+
+.buguer-menu {
+    width: 1.8rem;
+    height: 1.3rem;
+}
+
+.content-burguer {
+    background-color: var(--appColor);
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .header>:nth-child(2) {
+        position: fixed;
+        right: 2rem;
+        z-index: 99;
+    }
+    
+    .header-menu {
+        flex-direction: column;
+        background-color: var(--appColor);
+        padding: 1.5rem;
+    }
+}
