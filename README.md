@@ -1,7 +1,7 @@
 # Gym FitClub 🏋🏽
 
 ### Caso queira ver este site no ar, entre no link abaixo:
-</br>
+<br>
 ### https://gymproject-8h1.pages.dev/ 
 
 ## Bem vindo ao meu repositório, este é destinado ao meu projeto de front-end.
